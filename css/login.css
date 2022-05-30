@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: #e9d8d1!important;
+    font-size: .8125rem!important;
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none!important;
+}
+#btnLight{
+    background-color: #fff;
+    width: 27rem;
+    margin:0 auto 100px;
+    padding: 10px;
+    border-radius: 0 !important;
+}
+input {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom: 1px solid #2d6df7;
+    padding: 5px 0;
+    width: 100%;
+}
+.lBtn{
+    border-radius: 0 !important;
+    padding: 5px 40px!important;
+    border: none;
+}
+#login{
+    background-color: #fff;
+    width: 27rem;
+    margin: 130px auto 15px;
+    padding: 30px;
+    border-radius: 0 !important;
+}
+/*email input*/
+.disable,.no-outline:focus {
+    outline: none; 
+    border: none; 
+}
+/*btn border*/
+.d-inline-flex {
+    background-color: #fff;
+    border: none;
+}
+/*input btn*/
+input.d-inline-flex.card-body {
+    font-size: larger;
+}
+/*key img*/
+.key {
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
+#emlSpan{
+    font-size: medium;
+}
+/*grey*/
+.grey{
+    background-color: #ccc!important;
+    border: none!important;
+    color: #000!important;
+}
+/*mouse-cursor*/
+.mus{
+    cursor: pointer;
+    padding: 10px 0;
+}
+.mus:hover {
+    background-color: #ccc;
+}
+/*sign-in option*/
+#signOpt {
+    background-color: #fff;
+    width: 27rem;
+    margin: 90px auto;
+    padding: 10px;
+    border-radius: 0 !important;
+}
+.option {
+    color: #000;
+}
+.option:hover {
+    background-color:#0000ff;
+}

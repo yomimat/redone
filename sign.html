@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--icon link-->
+    <link rel="shortcut icon" href="fav/favicon (1).ico" type="image/x-icon">
+    <!--main css-->
+    <link rel="stylesheet" href="css/login.css">
+    <!--bootstrap css-->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <title>login</title>
+</head>
+<body>
+    <header></header>
+    <!--sign-up option-->
+    <main>
+        <div id="signOpt" class="card">
+            <div class="card-body">
+               <img class="card-title mb-3" src="img/Microsoft.png" alt="Microsoft">
+              <h4 class="card-subtitle mb-4 text-muted">Sign-in options</h4>
+              <!--paper-sign-in-->
+              <div class="row mus">
+                  <div class="col-2">
+                      <img src="https://aadcdn.msftauth.net/shared/1.0/content/images/credentialoptions/cred_option_fido_498a4d7bb984e5436a52c8b52f3ab0f7.svg" alt="">
+                  </div>
+                  <div class="col-9">
+                    <p>Sign in with Windows Hello or a security key <br> 
+                       <small>Choose this only if you have enabled Windows Hello or a security key for your account.</small>
+                    </p>
+                  </div>
+                  <div class="col-1">
+                      <img src="https://aadcdn.msftauth.net/shared/1.0/content/images/documentation_bcb4d1dc4eae64f0b2b2538209d8435a.svg" alt="">
+                  </div>
+              </div>
+              <!--github sign-in-->
+              <div class="mus row">
+                  <div class="col-2">
+                      <img src="https://aadcdn.msftauth.net/shared/1.0/content/images/credentialoptions/cred_option_github_a7c769e31a628e643841187d20e149e3.svg" alt="">
+                  </div>
+                  <div class="col-9">
+                    <p>
+                        Sign in with GitHub <br>
+                       <small>Personal accounts only</small>
+                    </p>
+                  </div> 
+                  <div class="col-1">
+                      <img src="https://aadcdn.msftauth.net/shared/1.0/content/images/documentation_bcb4d1dc4eae64f0b2b2538209d8435a.svg" alt="">
+                  </div>
+              </div>
+              <!--org sign-in-->
+              <a href="organization.html" style="color: #000;">
+                <div class="mus row">
+                    <div class="col-2">
+                        <img src="https://aadcdn.msftauth.net/shared/1.0/content/images/picker_account_aad_725681b49f77650b9c9b970eb784476c.png" alt="">
+                    </div>
+                    <div class="col-9">
+                        <p>	
+                            Sign in to an organization <br>
+                        <small>Search for a company or an organization you're working with. </small> 
+                        </p>
+                    </div>
+                </div>
+              </a>
+              <!--back btn-->
+              <div class="d-flex justify-content-end mt-4">
+                <button type="button" class="lBtn grey btn btn-primary" onclick="history.back()">Back</button>
+              </div>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

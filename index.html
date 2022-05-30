@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--icon link-->
+    <link rel="shortcut icon" href="fav/favicon (1).ico" type="image/x-icon">
+    <!--main css-->
+    <link rel="stylesheet" href="css/login.css">
+    <!--bootstrap css-->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <title>login</title>
+</head>
+<body>
+    <header></header>
+    <!--main login-->
+    <main>
+        <div id="login" class="card">
+            <div class="card-body">
+               <img class="card-title mb-3" src="img/Microsoft.png" alt="Microsoft">
+              <h4 class="card-subtitle mb-2 text-muted">Sign in</h4>
+              <form class="mb-3" action="" method="post">
+                  <input id="emlInput" class="no-outline" type="email" name="email" placeholder="Email, phone, or Skype">
+              </form>
+              <p class="card-text mb-3">No account? <a href="#">Create one!</a></p>
+              <a href="#" class="card-link">Can’t access your account?</a>
+              <div class="d-flex justify-content-end mt-4">
+                <a href="next.html"><button type="button" id="btnNext" class="lBtn btn btn-primary">Next</button></a>
+              </div>
+            </div>
+        </div>
+        <!--sign-in-option-->
+        <a href="sign.html">
+            <div id="btnLight" class="row option px-5">
+                <div class="col-1 p-0">
+                    <img class="tile-img key" src="https://aadcdn.msftauth.net/shared/1.0/content/images/signin-options_4e48046ce74f4b89d45037c90576bfac.svg" alt="key">
+                </div>
+                <div class="col-11 mt-2">
+                    <input class="d-inline-flex card-body ms-2" type="button" value="Sign-in options">
+                </div>
+            </div>
+        </a>
+    </main>
+    <footer></footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

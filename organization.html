@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--icon link-->
+    <link rel="shortcut icon" href="fav/favicon (1).ico" type="image/x-icon">
+    <!--main css-->
+    <link rel="stylesheet" href="css/login.css">
+    <!--bootstrap css-->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <title>login</title>
+</head>
+<body>
+    <header></header>
+    <!--organization sign-in-->
+    <main>
+        <div id="login" class="card">
+            <div class="card-body">
+               <img class="card-title mb-3" src="img/Microsoft.png" alt="Microsoft">
+              <h4 class="card-subtitle mb-2 text-muted">Find your organization</h4>
+              <p class="card-text mb-3">Enter the domain name of the organization you'd <br> like to sign in to.</p>
+              <form class="mb-3" action="" method="post">
+                  <input id="emlInput" class="no-outline" type="email" name="email" placeholder="Domain name">
+              </form>
+              <div class="d-flex justify-content-end mt-4">
+                <button type="button" class="lBtn grey btn btn-primary me-2" onclick="history.back()">Back</button>
+                <a href="next.html"><button type="button" id="btnNext" class="lBtn btn btn-primary">Next</button></a>
+              </div>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
